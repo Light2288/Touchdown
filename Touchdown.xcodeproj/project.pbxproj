@@ -19,6 +19,7 @@
 		6B78EBAB2888C4AD00793596 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B78EBAA2888C4AD00793596 /* Footer.swift */; };
 		6B78EBAD288A061800793596 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B78EBAC288A061800793596 /* NavigationBarView.swift */; };
 		6B78EBAF288A073500793596 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B78EBAE288A073500793596 /* LogoView.swift */; };
+		6B78EBB1288A891100793596 /* UIApplication+SafeAreaTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B78EBB0288A891100793596 /* UIApplication+SafeAreaTop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		6B78EBAA2888C4AD00793596 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 		6B78EBAC288A061800793596 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		6B78EBAE288A073500793596 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		6B78EBB0288A891100793596 /* UIApplication+SafeAreaTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+SafeAreaTop.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		6B78EBA62888C2F400793596 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				6B78EBB0288A891100793596 /* UIApplication+SafeAreaTop.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				6B78EB8C2888C03F00793596 /* ContentView.swift in Sources */,
 				6B78EBAF288A073500793596 /* LogoView.swift in Sources */,
+				6B78EBB1288A891100793596 /* UIApplication+SafeAreaTop.swift in Sources */,
 				6B78EB8A2888C03F00793596 /* TouchdownApp.swift in Sources */,
 				6B78EBAB2888C4AD00793596 /* Footer.swift in Sources */,
 				6B78EBA92888C31100793596 /* Constant.swift in Sources */,
